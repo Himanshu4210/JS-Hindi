@@ -1,12 +1,12 @@
 let score = "33abc"
 
-console.log(typeof score);
-console.log(typeof (score));
+//console.log(typeof score);
+//console.log(typeof (score));
 
 let valueInNumber = Number(score)
-console.log(typeof(valueInNumber));
+//console.log(typeof(valueInNumber));
 
-console.log(valueInNumber);
+//console.log(valueInNumber);
 
 /*let score1 = null
 
@@ -41,8 +41,19 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "himanshu" => true
 
-let someNumber = 33
+/*let someNumber = 33
 
 let stringNumber = String(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber);
+console.log(typeof stringNumber);*/
+
+// ************* Operation ********************
+
+/*console.log("2"+3);
+console.log(2+"3");
+console.log("2"+3+3);
+console.log(2+3+"3");*/
+
+console.log(true);
+console.log(+true);
+console.log(+false);
