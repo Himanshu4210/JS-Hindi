@@ -27,3 +27,5 @@ let city = null
 
 console.log(typeof age);
 console.log(typeof null);
+
+let id = Symbol("id");
