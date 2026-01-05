@@ -27,5 +27,27 @@ let obj1 = {
 }
 
 const myFun = function(){
-    console.log("Hello");
+    //console.log("Hello");
 }
+
+let myName = "Himanshu"
+let anotherName = "Abhishek"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@gmail.com",
+    Upi : "@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "himanshu@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
