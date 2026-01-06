@@ -19,10 +19,10 @@ const JsUser = {
 
 // Acess Object
 // 1st method normal 
-console.log(JsUser.name);
+//console.log(JsUser.name);
 
 //2nd method 
 //console.log(JsUser["name"]);
-console.log(JsUser["full name"]);
-console.log(typeof JsUser.mySym);
+//console.log(JsUser["full name"]);
+//console.log(typeof JsUser.mySym);
 //console.log(typeof JsUser[mySym]);
