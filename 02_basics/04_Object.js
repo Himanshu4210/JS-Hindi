@@ -50,11 +50,25 @@ const users = [
     }
 ]
 
-users[1].email
-console.log(User);
-console.log(Object.keys(User));
-console.log(Object.values(User));
-console.log(Object.entries(User));
+//users[1].email
+//console.log(User);
+////console.log(Object.keys(User));
+//console.log(Object.values(User));
+//console.log(Object.entries(User));
 
-console.log(User.hasOwnProperty('isLoggedIn'));
+//console.log(User.hasOwnProperty('isLoggedIn'));
+
+// Object De-structure 
+
+const course = {
+    course: "JS",
+    price: 99,
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor: instructor} = course
+//console.log(course.courseInstructor)
+console.log(instructor);
+
+
 
